@@ -10,5 +10,5 @@ How to use the shellscript?
 2. Install jq 
 3. Initialize access key and secret access key
 4. Then invoke the program as: ./mapSecurity.sh <AWS Region> <Outputfle name prefix>
-us-west-2 is the default region. outputfile_<ddmmyyyy>.plis the default
+us-west-2 is the default region. outputfile_<ddmmyyyy>_<vpd-id>.plis the default
 <ddmmyyyy> suffix will be added to the outputfile name if one is given.
