@@ -1,7 +1,7 @@
 # composability
-What did the project do?
+What does the project do?
 
-We want to generate logical facts about VPC configurations and use that with network semantic rules and security policy rules to verify whether the given VPC configurations and the resources withinthe VPC satisfy the policy rules.
+We want to generate logical facts about VPC configurations and use that with network semantic rules and security policy rules to verify whether the given VPC configurations and the resources within the VPC satisfy the policy rules.
 We use Prolog to represent the facts and rules.
 This shell script walks through VPCs in an AWS account and creates Prolog facts about the VPC configuration and the configuration of resources in the VPC, such as compute units, RDS instances, and the associated SecurityGroups.
 
