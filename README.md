@@ -12,3 +12,10 @@ How to use the shellscript?
 4. Then invoke the program as: ./mapSecurity.sh <AWS Region> <Outputfle name prefix>
 us-west-2 is the default region. outputfile_<ddmmyyyy>_<vpd-id>.pl is the default
 <ddmmyyyy> suffix will be added to the outputfile name if one is given.
+
+
+Once we have the Prolog output file with facts and rules, this can be run in SwiProlog as 'swipl <filename' and query the knowledge of facts 
+to see if a goal is satisfied. Swipl can be installed with instructions from https://gist.github.com/norswap/39805b733e68c4df119375d4c7a96da4.
+
+For example, to query compute instances with unencrypted EBS volumes:
+? unencrypted(X). 
